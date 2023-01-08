@@ -12,7 +12,7 @@ pipeline {
        }
        stage('git clone') {
             steps {
-            git branch: 'main', url: 'https://github.com/swamy527/project.git'
+            git branch: 'main', url: 'https://github.com/swamy527/Jenkinsrepo.git'
        }
        }
        stage('maven clean') {
